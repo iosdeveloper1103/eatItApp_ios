@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A271BBC31EEB90BA00320941 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271BBC21EEB90BA00320941 /* AppDelegate.swift */; };
+		A271BBC81EEB90BA00320941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A271BBC61EEB90BA00320941 /* Main.storyboard */; };
+		A271BBCA1EEB90BA00320941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A271BBC91EEB90BA00320941 /* Assets.xcassets */; };
+		A271BBCD1EEB90BA00320941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A271BBCB1EEB90BA00320941 /* LaunchScreen.storyboard */; };
+		A271BBD51EEBC17400320941 /* WelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271BBD41EEBC17400320941 /* WelcomeScreenViewController.swift */; };
+		A271BBD71EEBC18400320941 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271BBD61EEBC18400320941 /* SignUpViewController.swift */; };
+		A271BBD91EEBC19800320941 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271BBD81EEBC19800320941 /* SignInViewController.swift */; };
+		A271BBDB1EEBC1B300320941 /* VerifyOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271BBDA1EEBC1B300320941 /* VerifyOtpViewController.swift */; };
+		A271BBDD1EEBC1C500320941 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A271BBDC1EEBC1C500320941 /* ForgotPasswordViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A271BBBF1EEB90BA00320941 /* EatIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EatIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A271BBC21EEB90BA00320941 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A271BBC71EEB90BA00320941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A271BBC91EEB90BA00320941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A271BBCC1EEB90BA00320941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A271BBCE1EEB90BA00320941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A271BBD41EEBC17400320941 /* WelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		A271BBD61EEBC18400320941 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A271BBD81EEBC19800320941 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A271BBDA1EEBC1B300320941 /* VerifyOtpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyOtpViewController.swift; sourceTree = "<group>"; };
+		A271BBDC1EEBC1C500320941 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A271BBBC1EEB90BA00320941 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A271BBB61EEB90B900320941 = {
+			isa = PBXGroup;
+			children = (
+				A271BBC11EEB90BA00320941 /* EatIt */,
+				A271BBC01EEB90BA00320941 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A271BBC01EEB90BA00320941 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A271BBBF1EEB90BA00320941 /* EatIt.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A271BBC11EEB90BA00320941 /* EatIt */ = {
+			isa = PBXGroup;
+			children = (
+				A271BBC21EEB90BA00320941 /* AppDelegate.swift */,
+				A271BBDE1EEC0FD900320941 /* Login and Signup view controllers */,
+				A271BBC61EEB90BA00320941 /* Main.storyboard */,
+				A271BBC91EEB90BA00320941 /* Assets.xcassets */,
+				A271BBCB1EEB90BA00320941 /* LaunchScreen.storyboard */,
+				A271BBCE1EEB90BA00320941 /* Info.plist */,
+			);
+			path = EatIt;
+			sourceTree = "<group>";
+		};
+		A271BBDE1EEC0FD900320941 /* Login and Signup view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A271BBDC1EEBC1C500320941 /* ForgotPasswordViewController.swift */,
+				A271BBDA1EEBC1B300320941 /* VerifyOtpViewController.swift */,
+				A271BBD81EEBC19800320941 /* SignInViewController.swift */,
+				A271BBD61EEBC18400320941 /* SignUpViewController.swift */,
+				A271BBD41EEBC17400320941 /* WelcomeScreenViewController.swift */,
+			);
+			name = "Login and Signup view controllers";
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A271BBBE1EEB90BA00320941 /* EatIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A271BBD11EEB90BA00320941 /* Build configuration list for PBXNativeTarget "EatIt" */;
+			buildPhases = (
+				A271BBBB1EEB90BA00320941 /* Sources */,
+				A271BBBC1EEB90BA00320941 /* Frameworks */,
+				A271BBBD1EEB90BA00320941 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EatIt;
+			productName = EatIt;
+			productReference = A271BBBF1EEB90BA00320941 /* EatIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A271BBB71EEB90B900320941 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Freelancer;
+				TargetAttributes = {
+					A271BBBE1EEB90BA00320941 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = UYC6628FAF;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A271BBBA1EEB90B900320941 /* Build configuration list for PBXProject "EatIt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A271BBB61EEB90B900320941;
+			productRefGroup = A271BBC01EEB90BA00320941 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A271BBBE1EEB90BA00320941 /* EatIt */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A271BBBD1EEB90BA00320941 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271BBCD1EEB90BA00320941 /* LaunchScreen.storyboard in Resources */,
+				A271BBCA1EEB90BA00320941 /* Assets.xcassets in Resources */,
+				A271BBC81EEB90BA00320941 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A271BBBB1EEB90BA00320941 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A271BBDD1EEBC1C500320941 /* ForgotPasswordViewController.swift in Sources */,
+				A271BBC31EEB90BA00320941 /* AppDelegate.swift in Sources */,
+				A271BBD71EEBC18400320941 /* SignUpViewController.swift in Sources */,
+				A271BBDB1EEBC1B300320941 /* VerifyOtpViewController.swift in Sources */,
+				A271BBD91EEBC19800320941 /* SignInViewController.swift in Sources */,
+				A271BBD51EEBC17400320941 /* WelcomeScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A271BBC61EEB90BA00320941 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A271BBC71EEB90BA00320941 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A271BBCB1EEB90BA00320941 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A271BBCC1EEB90BA00320941 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A271BBCF1EEB90BA00320941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A271BBD01EEB90BA00320941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A271BBD21EEB90BA00320941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYC6628FAF;
+				INFOPLIST_FILE = EatIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOSDeveloper.EatIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A271BBD31EEB90BA00320941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UYC6628FAF;
+				INFOPLIST_FILE = EatIt/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = IOSDeveloper.EatIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A271BBBA1EEB90B900320941 /* Build configuration list for PBXProject "EatIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A271BBCF1EEB90BA00320941 /* Debug */,
+				A271BBD01EEB90BA00320941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A271BBD11EEB90BA00320941 /* Build configuration list for PBXNativeTarget "EatIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A271BBD21EEB90BA00320941 /* Debug */,
+				A271BBD31EEB90BA00320941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A271BBB71EEB90B900320941 /* Project object */;
+}
